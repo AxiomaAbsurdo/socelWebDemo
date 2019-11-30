@@ -31,6 +31,23 @@ textarea {
 	outline: none;
 }
 
+#mision {
+	color: #e5222b;
+	font-size: 40px;
+	text-align: initial;
+	margin-bottom: 5px;
+	padding-left: 0px;
+	padding: 0px 15px 0px 15px;
+}
+
+#misionText {
+	margin-bottom: 10px;
+	width: 500px;
+	margin-top: 0px;
+	text-align: initial;
+	padding: 0px 15px 0px 15px;
+}
+
 label {
 	margin-bottom: 0;
 }
@@ -6297,6 +6314,7 @@ textarea.textarea-lg {
 }
 
 .thumbnail-classic-caption {
+	top: 35%;
 	text-align: center;
 	position: absolute;
 	content: '';
@@ -6305,7 +6323,7 @@ textarea.textarea-lg {
 	padding: 10px 15px;
 	min-width: 230px;
 	transform: translate3d(-50%, 0, 0);
-	background: #ffffff;
+	/* background: #ffffff; */
 	pointer-events: none;
 	transition: all .3s ease;
 }
@@ -6418,6 +6436,8 @@ textarea.textarea-lg {
 		transform: none;
 	}
 	.desktop .thumbnail-classic:hover .thumbnail-classic-caption {
+		align-items: center;
+		background-color: rgba(43, 49, 59, 0.24);
 		opacity: 1;
 		visibility: visible;
 		transform: none;
