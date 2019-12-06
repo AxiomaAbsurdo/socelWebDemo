@@ -30,6 +30,69 @@
     html.lt-ie-10 .ie-panel {
       display: block;
     }
+
+    @media screen and (max-width: 600px) {
+      #slider1_main_text {
+        font-size: 19px;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      #slider1_sub_text  {
+        font-size: 12px;
+        margin-top: 0px;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      #slider2_main_text {
+        font-size: 17px;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      #slider2_sub_text {
+        font-size: 12px;
+        margin-top: 0px;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      #slider3_main_text {
+        font-size: 19px;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      #slider3_sub_text {
+        font-size: 12px;
+        margin-top: 0px;
+      }
+    }
+
+    
+    @media screen and (max-width: 600px) {
+      #contact_btn_1 {
+        margin-top: 0px;
+        top: 10px;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      #contact_btn_2 {
+        margin-top: 0px;
+        top: 20px;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      #contact_btn_3 {
+        margin-top: 0px;
+        top: 20px;
+      }
+    }
+
+
   </style>
 </head>
 
@@ -67,15 +130,21 @@
                         src="images/logo-default-223x50.png" alt="" width="223" height="50" /></a></div>
                 </div>
                 <div class="rd-navbar-main-element">
+                    
                   <div class="rd-navbar-nav-wrap">
                     <!-- RD Navbar Share-->
-                    <div class="rd-navbar-share fl-bigmug-line-share27" data-rd-navbar-toggle=".rd-navbar-share-list">
-                      <ul class="list-inline rd-navbar-share-list">
-                        <li class="rd-navbar-share-list-item"><a class="icon fa fa-facebook" href="#"></a></li>
-                        <li class="rd-navbar-share-list-item"><a class="icon fa fa-twitter" href="#"></a></li>
-                        <li class="rd-navbar-share-list-item"><a class="icon fa fa-google-plus" href="#"></a></li>
-                        <li class="rd-navbar-share-list-item"><a class="icon fa fa-instagram" href="#"></a></li>
+                    <ul class="list-inline rd-navbar-share-list">
+                        <div>
+                            
+                            <li class="rd-navbar-share-list-item"><a class="icon fa fa-facebook" href="https://www.facebook.com/socelconstrucciones/"></a></li>
+                            <li class="rd-navbar-share-list-item"><a class="icon fa fa-twitter" href="#"></a></li>
+                            <li class="rd-navbar-share-list-item"><a class="icon fa fa-google-plus" href="#"></a></li>
+                            <li class="rd-navbar-share-list-item"><a class="icon fa fa-instagram" href="https://www.instagram.com/socel.uy/?hl=es-la"></a></li>
+                        </div>
                       </ul>
+                    <div class="rd-navbar-share fl-bigmug-line-share27" data-rd-navbar-toggle=".rd-navbar-share-list">
+                        
+                      
                     </div>
                     <ul class="rd-navbar-nav">
                       <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">Inicio</a></li>
@@ -100,11 +169,13 @@
           <div class="swiper-slide" data-slide-bg="images/slider-1-slide-2-1770x742.png">
             <div class="swiper-slide-caption section-md">
               <div class="container">
-                <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">Impermeabilización TPO</h1>
-                <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">Aeropuerto
+                <h1 id="slider1_main_text" class="col-xs-12 col-sm-12" data-caption-animate="fadeInLeft"
+                  data-caption-delay="0">Impermeabilización TPO</h1>
+                <p id="slider1_sub_text" class="text-width-large" data-caption-animate="fadeInRight"
+                  data-caption-delay="100">Aeropuerto
                   Internacional de Carrasco 2017. Reparación parcial de techo y cielorraso. Impermeabilización con
                   sistema TPO.</p>
-                <a class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal"
+                <a id="contact_btn_1" class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal"
                   data-caption-animate="fadeInUp" data-caption-delay="200">Cont&aacutectenos</a>
               </div>
             </div>
@@ -112,9 +183,11 @@
           <div class="swiper-slide" data-slide-bg="images/slider-1-slide-4-1770x742.png">
             <div class="swiper-slide-caption section-md">
               <div class="container">
-                <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">Estancia Presidencial Anchorena</h1>
-                <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">Recambio de
-                  500m2 de techo de tejas y pintura interior año 2008</p><a class="button button-primary button-ujarak"
+                <h1 id="slider2_main_text" data-caption-animate="fadeInLeft" data-caption-delay="0">Estancia
+                  Presidencial Anchorena</h1>
+                <p id="slider2_sub_text" class="text-width-large" data-caption-animate="fadeInRight"
+                  data-caption-delay="100">Recambio de
+                  500m2 de techo de tejas y pintura interior año 2008</p><a id="contact_btn_2" class="button button-primary button-ujarak"
                   href="#modalCta" data-toggle="modal" data-caption-animate="fadeInUp"
                   data-caption-delay="200">Cont&aacutectenos</a>
               </div>
@@ -123,10 +196,12 @@
           <div class="swiper-slide" data-slide-bg="images/slider-1-slide-6-1770x742.png">
             <div class="swiper-slide-caption section-md">
               <div class="container">
-                <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">Instituto Nacional de Alimentación | INDA
+                <h1 id="slider3_main_text" data-caption-animate="fadeInLeft" data-caption-delay="0">Instituto Nacional
+                  de Alimentación | INDA
                 </h1>
-                <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">Recambio de 3800
-                  m2 de techo de chapa. Año 2009</p><a class="button button-primary button-ujarak" href="#modalCta"
+                <p id="slider3_sub_text" class="text-width-large" data-caption-animate="fadeInRight"
+                  data-caption-delay="100">Recambio de 3800
+                  m2 de techo de chapa. Año 2009</p><a id="contact_btn_3" class="button button-primary button-ujarak" href="#modalCta"
                   data-toggle="modal" data-caption-animate="fadeInUp" data-caption-delay="200">Cont&aacutectenos</a>
               </div>
             </div>
@@ -155,7 +230,8 @@
               <div class="col-sm-6 wow fadeInRight" data-wow-delay=".1s">
                 <article class="box-icon-modern box-icon-modern-2">
                   <!-- <div class="box-icon-modern-icon linearicons-phone-in-out"></div> -->
-                  <h5 class="box-icon-modern-title"><a href="#" style="font-size: 26px; color: #e5222b;">IMPERMEABILIZACIONES<br></a></h5>
+                  <h5 class="box-icon-modern-title"><a href="#"
+                      style="font-size: 26px; color: #e5222b;">IMPERMEABILIZACIONES<br></a></h5>
                   <div class="box-icon-modern-decor"></div>
                   <p class="box-icon-modern-text">Servicio integral en Impermeabilizaciones.
                   </p>
@@ -164,7 +240,8 @@
               <div class="col-sm-6 wow fadeInRight" data-wow-delay=".1s">
                 <article class="box-icon-modern box-icon-modern-2">
                   <!-- <div class="box-icon-modern-icon linearicons-phone-in-out"></div> -->
-                  <h5 class="box-icon-modern-title"><a href="#" style="font-size: 26px; color: #e5222b;">HORMIGONES<br></a></h5>
+                  <h5 class="box-icon-modern-title"><a href="#"
+                      style="font-size: 26px; color: #e5222b;">HORMIGONES<br></a></h5>
                   <div class="box-icon-modern-decor"></div>
                   <p class="box-icon-modern-text">Alta experiencia y trabajo de calidad en hormigones.
                   </p>
@@ -173,7 +250,8 @@
               <div class="col-sm-6 wow fadeInRight" data-wow-delay=".2s">
                 <article class="box-icon-modern box-icon-modern-2">
                   <!-- <div class="box-icon-modern-icon linearicons-headset"></div> -->
-                  <h5 class="box-icon-modern-title"><a href="#" style="font-size: 26px; color: #e5222b;">OBRAS DE<br>ARQUITECTURA</a></h5>
+                  <h5 class="box-icon-modern-title"><a href="#" style="font-size: 26px; color: #e5222b;">OBRAS
+                      DE<br>ARQUITECTURA</a></h5>
                   <div class="box-icon-modern-decor"></div>
                   <p class="box-icon-modern-text">Realizaci&oacuten integral de proyectos de arquitectura.</p>
                 </article>
@@ -181,7 +259,8 @@
               <div class="col-sm-6 wow fadeInRight" data-wow-delay=".3s">
                 <article class="box-icon-modern box-icon-modern-2">
                   <!-- <div class="box-icon-modern-icon linearicons-outbox"></div> -->
-                  <h5 class="box-icon-modern-title"><a href="#" style="font-size: 26px; color: #e5222b;">MANTENIMIENTO<br>INTEGRAL</a></h5>
+                  <h5 class="box-icon-modern-title"><a href="#"
+                      style="font-size: 26px; color: #e5222b;">MANTENIMIENTO<br>INTEGRAL</a></h5>
                   <div class="box-icon-modern-decor"></div>
                   <p class="box-icon-modern-text">Mantenimiento de obras, inmuebles y todo tipo de fincas.</p>
                 </article>
@@ -213,20 +292,19 @@
 
     <!-- Latest Projects-->
     <section class="section section-sm section-fluid bg-default text-center" id="projects">
-      <div class="container-fluid" >
+      <div class="container-fluid">
         <!-- <h2 class="wow fadeInLeft">Latest Projects</h2>
         <p class="quote-jean wow fadeInRight" data-wow-delay=".1s">In our portfolio, you can browse the latest products
           developed for our clients for different corporate purposes. Our qualified team of interface designers and
           software developers is always ready to create something unique for you.</p> -->
-        <div class="isotope-filters isotope-filters-horizontal"  >
+        <div class="isotope-filters isotope-filters-horizontal">
           <!-- <button
             class="isotope-filters-toggle button button-md button-icon button-icon-right button-default-outline button-wapasha"
             data-custom-toggle="#isotope-3" data-custom-toggle-hide-on-blur="true"
             data-custom-toggle-disable-on-blur="true"><span class="icon fa fa-caret-down"></span>Filter</button>
           <ul class="isotope-filters-list" id="isotope-3"> -->
-          <a class="active" href="#" data-isotope-filter="*" data-isotope-group="gallery"
-            ></a>
-            <p style="font-size: 40px; color: #e5222b;" >NUESTROS TRABAJOS DESTACADOS</p>
+          <a class="active" href="#" data-isotope-filter="*" data-isotope-group="gallery"></a>
+          <p style="font-size: 40px; color: #e5222b;">NUESTROS TRABAJOS DESTACADOS</p>
           <!-- <li><a href="#" data-isotope-filter="Type 1" data-isotope-group="gallery">mobile Apps</a></li>
             <li><a href="#" data-isotope-filter="Type 2" data-isotope-group="gallery">Custom Software</a></li>
             <li><a href="#" data-isotope-filter="Type 3" data-isotope-group="gallery">QA & Testing</a></li>
@@ -261,7 +339,7 @@
               </div>
               <div class="thumbnail-classic-caption">
                 <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                  style="font-size: 80px; width: 100%; text-align: center; color: #ffffff"
+                    style="font-size: 80px; width: 100%; text-align: center; color: #ffffff"
                     href="images/grid-gallery-2-1200x800-original.jpg" data-lightgallery="item"><img
                       src="images/fullwidth-gallery-2-420x350.jpg" alt="" width="420" height="350" /></a>
                   <!-- <h5 class="thumbnail-classic-title"><a href="#"> // </a></h5> -->
@@ -279,7 +357,7 @@
               </div>
               <div class="thumbnail-classic-caption">
                 <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                  style="font-size: 80px; width: 100%; text-align: center; color: #ffffff"
+                    style="font-size: 80px; width: 100%; text-align: center; color: #ffffff"
                     href="images/grid-gallery-3-1200x800-original.jpg" data-lightgallery="item"><img
                       src="images/fullwidth-gallery-3-420x350.jpg" alt="" width="420" height="350" /></a>
                   <!-- <h5 class="thumbnail-classic-title"><a href="#"> //</a></h5> -->
@@ -297,7 +375,7 @@
               </div>
               <div class="thumbnail-classic-caption">
                 <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                  style="font-size: 80px; width: 100%; text-align: center; color: #ffffff"
+                    style="font-size: 80px; width: 100%; text-align: center; color: #ffffff"
                     href="images/grid-gallery-4-1200x800-original.jpg" data-lightgallery="item"><img
                       src="images/fullwidth-gallery-4-420x350.jpg" alt="" width="420" height="350" /></a>
                   <!-- <h5 class="thumbnail-classic-title"><a href="#">  // </a></h5> -->
@@ -314,7 +392,7 @@
               </div>
               <div class="thumbnail-classic-caption">
                 <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                  style="font-size: 80px; width: 100%; text-align: center; color: #ffffff"
+                    style="font-size: 80px; width: 100%; text-align: center; color: #ffffff"
                     href="images/grid-gallery-5-1200x800-original.jpg" data-lightgallery="item"><img
                       src="images/fullwidth-gallery-5-420x350.jpg" alt="" width="420" height="350" /></a>
                   <!-- <h5 class="thumbnail-classic-title"><a href="#"> // r</a></h5> -->
@@ -332,7 +410,7 @@
               </div>
               <div class="thumbnail-classic-caption">
                 <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                  style="font-size: 80px; width: 100%; text-align: center; color: #ffffff"
+                    style="font-size: 80px; width: 100%; text-align: center; color: #ffffff"
                     href="images/grid-gallery-6-1200x800-original.jpg" data-lightgallery="item"><img
                       src="images/fullwidth-gallery-6-420x350.jpg" alt="" width="420" height="350" /></a>
                   <!-- <h5 class="thumbnail-classic-title"><a href="#"> // </a></h5> -->
@@ -350,7 +428,7 @@
               </div>
               <div class="thumbnail-classic-caption">
                 <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                  style="font-size: 80px; width: 100%; text-align: center; color: #ffffff"
+                    style="font-size: 80px; width: 100%; text-align: center; color: #ffffff"
                     href="images/grid-gallery-7-1200x800-original.jpg" data-lightgallery="item"><img
                       src="images/fullwidth-gallery-7-420x350.jpg" alt="" width="420" height="350" /></a>
                   <!-- <h5 class="thumbnail-classic-title"><a href="#"> // </a></h5> -->
@@ -368,7 +446,7 @@
               </div>
               <div class="thumbnail-classic-caption">
                 <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
-                  style="font-size: 80px; width: 100%; text-align: center; color: #ffffff"
+                    style="font-size: 80px; width: 100%; text-align: center; color: #ffffff"
                     href="images/grid-gallery-8-1200x800-original.jpg" data-lightgallery="item"><img
                       src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350" /></a>
                   <!-- <h5 class="thumbnail-classic-title"><a href="#"> // </a></h5> -->
@@ -392,7 +470,8 @@
           <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4">
             <div class="text-width-extra-small offset-top-lg-24 wow fadeInUp">
               <!-- <h3 class="title-decoration-lines-left">A&ntilde;os de experiencia</h3> -->
-              <p class="text-gray-500" style="margin-top: 40px; font-size:28px;">Nuestra empresa está fundada con el espíritu de la mejora continua y basada en
+              <p class="text-gray-500" style="margin-top: 40px; font-size:28px;">Nuestra empresa está fundada con el
+                espíritu de la mejora continua y basada en
                 los valores del compromiso con la calidad. Desde hace 32 años. </p>
               <!-- <a class="button button-secondary button-pipaluk" href="#">Get in touch</a> -->
             </div>
@@ -544,7 +623,7 @@
               <div class="unit unit-spacing-md align-items-center">
                 <!-- <div class="unit-left"><a class="quote-modern-figure" href="#"><img class="img-circles" src="images/user-11-75x75.jpg" alt="" width="75" height="75"/></a></div> -->
                 <div class="unit-body">
-                  <h4 class="quote-modern-cite"><a href="#">Matias Mortara</a></h4>
+                  <h4 class="quote-modern-cite" style="color:#e5222b">Matías Mortara</h4>
                   <p class="quote-modern-status">Desarrollador de Software</p>
                 </div>
               </div>
@@ -560,7 +639,7 @@
               <div class="unit unit-spacing-md align-items-center">
                 <!-- <div class="unit-left"><a class="quote-modern-figure" href="#"><img class="img-circles" src="images/user-12-75x75.jpg" alt="" width="75" height="75"/></a></div> -->
                 <div class="unit-body">
-                  <h4 class="quote-modern-cite"><a href="#">José Garcia</a></h4>
+                  <h4 class="quote-modern-cite" style="color:#e5222b">José Garcia</h4>
                   <p class="quote-modern-status">Arquitecto.</p>
                 </div>
               </div>
@@ -576,7 +655,7 @@
               <div class="unit unit-spacing-md align-items-center">
                 <!-- <div class="unit-left"><a class="quote-modern-figure" href="#"><img class="img-circles" src="images/user-20-75x75.jpg" alt="" width="75" height="75"/></a></div> -->
                 <div class="unit-body">
-                  <h4 class="quote-modern-cite"><a href="#">AgroLand S.A.</a></h4>
+                  <h4 class="quote-modern-cite" style="color:#e5222b">A.L. S.A.</h4>
                   <p class="quote-modern-status">Establecimiento Agroindustrial</p>
                 </div>
               </div>
@@ -842,10 +921,10 @@
               <div class="col-sm-6 col-md-4 text-sm-right text-md-center">
                 <div>
                   <ul class="list-inline list-inline-sm footer-social-list-2">
-                    <li><a class="icon fa fa-facebook" href="#"></a></li>
+                    <li><a class="icon fa fa-facebook" href="https://www.facebook.com/socelconstrucciones/"></a></li>
                     <li><a class="icon fa fa-twitter" href="#"></a></li>
                     <li><a class="icon fa fa-google-plus" href="#"></a></li>
-                    <li><a class="icon fa fa-instagram" href="#"></a></li>
+                    <li><a class="icon fa fa-instagram" href="https://www.instagram.com/socel.uy/?hl=es-la"></a></li>
                   </ul>
                 </div>
               </div>
@@ -873,7 +952,7 @@
           </div>
           <div class="modal-body">
             <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global"
-              data-form-type="contact-modal" method="post" action="bat/rd-mailform.php">
+              data-form-type="contact-modal" method="" action="mailto:user1@example.com">
               <div class="row row-14 gutters-14">
                 <div class="col-12">
                   <div class="form-wrap">
@@ -904,7 +983,7 @@
                   </div>
                 </div>
               </div>
-              <button class="button button-primary button-pipaluk" type="submit">Enviar Mensaje</button>
+              <button class="button button-primary button-pipaluk" type="submit"><a href="mailto:user1@example.com"></a>Enviar Mensaje</button>
             </form>
           </div>
         </div>
@@ -916,6 +995,7 @@
   <!-- Javascript-->
   <script src="js/core.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mailtoui@1.0.3/dist/mailtoui-min.js"></script>
   <!-- coded by Himic-->
 </body>
 
